@@ -38,7 +38,7 @@ var svg = d3.select("#frame").append("svg")
 
 svg.call(tip);
 
-d3.csv("DIA_revenue_11-15.csv", type, function(error, data) {
+d3.csv("http://thirawr.github.io/DI-Athletics-Revenue/revenue.csv", type, function(error, data) {
   if (error) throw error;
 
   x.domain(data.map(function(d) { return d.Year; }));
