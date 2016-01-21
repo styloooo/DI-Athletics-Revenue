@@ -1,6 +1,6 @@
-var margin = {top: 50, right: 20, bottom: 100, left: 40},
-    width = 400 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom,
+var margin = {top: 50, right: 20, bottom: 50, left: 20},
+    width = 300 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom,
     barPadding = 15;
 
 var x = d3.scale.ordinal()
