@@ -63,7 +63,7 @@ d3.csv("http://thirawr.github.io/DI-Athletics-Revenue/revenue.csv", type, functi
       .attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Total raised (in millions)");
+      .text("Total earned (in millions)");
 
   svg.selectAll(".bar")
       .data(data)
